@@ -1,0 +1,17 @@
+{
+  "name": "graph-websocket",
+  "version": "1.0.0",
+  "description": "Websocket that gets data from arduino via COM port",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Guilherme Cozendey",
+  "license": "ISC",
+  "dependencies": {
+    "serialport": "^12.0.0",
+    "uuid": "^9.0.1",
+    "ws": "^8.14.2"
+  }
+}
